@@ -4,7 +4,7 @@ public class Meal {
 
 	private final int orderNum;
 	
-	private Meal(int orderNum){
+	public Meal(int orderNum){
 		this.orderNum = orderNum;
 	}
 
